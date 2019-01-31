@@ -29,7 +29,7 @@ branches:
 install:
   - pip install awscli --upgrade --user
   - aws --version
-  - apt-get install scala
+  - sudo apt-get install scala
 
 # Travis CI clones repositories to a depth of 50 commits, which is only really useful if you are performing git operations, so 
 # See https://docs.travis-ci.com/user/customizing-the-build#git-clone-depth
