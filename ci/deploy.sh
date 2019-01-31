@@ -7,7 +7,7 @@ echo "${JAR_NAME}"
 CLASS_NAME="com.kali.FirstProgram"
 
 if [ ${env} = "dev" ] || [ ${env} = "staging" ] || [ ${env} = "prod" ]; then 
-    scala -classpath ${JAR_NAME} ${CLASS_NAME}
+    java -cp ${JAR_NAME} ${CLASS_NAME}
 else 
     echo "Invalid Environment"
 exit 1
