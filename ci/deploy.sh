@@ -2,7 +2,8 @@
 
 export env=$1
 export version=$2
-JAR_NAME=/home/travis/build/mahankaleswararao/ScalaExample/target/ScalaExample-${version}.jar
+JAR_NAME=/home/travis/build/MahanKaleswararao/ScalaExample/target/ScalaExample-${version}.jar
+
 echo "${JAR_NAME}"
 pwd
 
